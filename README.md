@@ -2,7 +2,7 @@
 - Install Docker and Docker Compose
 - sudo apt install unzip
 - export OPENCELL_HOST=<host_IP>
-- curl https://raw.githubusercontent.com/mirceanagy/opencell-deployment/master/deploy.opencell.sh | bash
+- curl https://raw.githubusercontent.com/mirceanagy/opencell-deployment/master/deploy-opencell.sh | bash
 
 # Usage
 - OpenCell DB: <host_IP>:5432, credentials: opencell_db_user/opencell_db_password
