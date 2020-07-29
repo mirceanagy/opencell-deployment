@@ -29,6 +29,9 @@ services:
       SMTP_PASSWORD: password
     ports:
       - "8080:8080"
+      - "4000:4000"
+      - "7600:7600"
+      - "9990:9990"
     volumes:
       - ./input-files/opencell.war:/opt/jboss/wildfly/standalone/deployments/opencell.war
       - ./input-files/opencell-admin.properties:/opt/jboss/wildfly/standalone/configuration/opencell-admin.properties
